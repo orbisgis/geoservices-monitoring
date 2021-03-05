@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <application title="Lab-STICC Geoservices monitoring" logo="img/logo/Logo_monitoring_small.png" help="monitoring_help.html" measuretools="true" exportpng="false" style="css/themes/peter_river.css"/>
+    <!--<mapoptions projection="EPSG:2154" extent="145518,6726671,372058,6868691"  />-->
+    <mapoptions maxzoom="19" projection="EPSG:900913" center="-220750.13768758904,6144925.57790189" zoom="8" projextent="-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244" />
+  
+    <baselayers style="default"><!-- style="default"||gallery" --> 
+        <baselayer  type="OSM" id="positron" label="CartoDb OSM" title="CartoDb" thumbgallery="img/basemap/positron.png" 
+            url="http://{a-c}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" maxzoom="20" 
+            visible="true" attribution="Map tiles by  &lt;a href='http://cartodb.com/attributions'>CartoDb &lt;/a>, under  &lt;a href='http://creativecommons.org/licenses/by/3.0/'>CC BY 3.0 &lt;/a>" />
+        <baselayer  type="OSM" id="osm1" label="OpenStreetMap" title="OpenStreetMap" thumbgallery="img/basemap/osm.png" 
+            url="http://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png" 
+            attribution="© MapQuest. Données : les contributeurs d'&lt;a href='http://www.openstreetmap.org/' target='_blank'>OpenStreetMap &lt;/a>,  &lt;a href='http://www.openstreetmap.org/copyright' target='_blank'>ODbL &lt;/a>" visible="false"/> 
+	<baselayer  type="OSM" id="esriworldimagery" label="Esri world imagery" title="esriworldimagery" thumbgallery="img/basemap/ortho.jpg"
+            url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" visible="false" 
+            attribution="VIDE" />
+    </baselayers> 
+    <olscompletion url="http://api-adresse.data.gouv.fr/search/" type="ban"/>
+    <searchparameters bbox="false" localities="true" features="true" static="true"/>
+    <widgets>
+       <!--<widget name="gauge"/>-->       
+    </widgets> 
+
+    <themes mini="true">  
+    	<theme name="Projet SLIM (Corpenicus)"  collapsed="false" id="domains" icon="university"> 
+
+		<layer id="paendora:slim_boxes" name="Domaines (10*10 km)"  visible="true" 
+                style="slim_progress" tiled="true"
+                url="https://geoclimate.orbisgis.org/geoserver/paendora/wms"
+                metadata=""
+                metadata-csw="" 
+		tooltip="true" 
+		tooltipenabled="true"
+		attribution="Groupe SIG Lab-STICC - Projet SLIM - Copernicus" /> 
+        
+        </theme>       
+
+    </themes>
+</config>
