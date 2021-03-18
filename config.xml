@@ -26,7 +26,7 @@
 
 		<layer id="geoclimate:slim_boxes" name="Domaines (10*10 km)"  visible="true" 
                 style="slim_boxes" tiled="true"
-                url="http://orbisgis.univ-ubs.fr/geoserver/geoclimate/wms"
+                url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
                 metadata=""
                 metadata-csw="" 
 		tooltip="true" 
