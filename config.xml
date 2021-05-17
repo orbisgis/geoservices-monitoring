@@ -24,7 +24,7 @@
     <themes mini="true">  
     	<theme name="Projet SLIM (Corpenicus)"  collapsed="false" id="domains" icon="university"> 
 
-		<layer id="geoclimate:slim_boxes" name="Domaines (10*10 km)"  visible="true" 
+		<layer id="geoclimate:slim_boxes" name="Domaines (10*10 km) (SLIM)"  visible="true" 
                 style="slim_boxes" tiled="true"
                 url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
                 metadata=""
@@ -36,7 +36,7 @@
         </theme>      
     	<theme name="Projet PAENDORA (ADEME)"  collapsed="false" id="paendora" icon="university"> 
 
-		<layer id="geoclimate:paendora_zones_2154" name="Processed areas"  visible="true" 
+		<layer id="geoclimate:paendora_zones_2154" name="Processed areas (Paendora)"  visible="true" 
                 style="paendora_zones" tiled="true"
                 url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
                 metadata=""
@@ -45,7 +45,7 @@
 		tooltipenabled="true"
 		attribution="Groupe SIG Lab-STICC - Projet Paendora"/> 
 		
-		<layer id="geoclimate:paendora_lcz1_view" name="Local Climate Zones"  visible="true" 
+		<layer id="geoclimate:paendora_lcz1_view" name="Local Climate Zones"  visible="false" 
                 style="lcz1_max_scale" tiled="true"
                 url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
                 metadata=""
