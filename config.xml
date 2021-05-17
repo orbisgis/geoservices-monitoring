@@ -37,7 +37,7 @@
     	<theme name="Projet PAENDORA (ADEME)"  collapsed="false" id="paendora" icon="university"> 
 
 		<layer id="geoclimate:paendora_zones_2154" name="Processed areas"  visible="true" 
-                style="generic" tiled="true"
+                style="paendora_zones" tiled="true"
                 url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
                 metadata=""
                 metadata-csw="" 
