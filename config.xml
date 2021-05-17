@@ -34,6 +34,29 @@
 		attribution="Groupe SIG Lab-STICC - Projet SLIM - Copernicus" /> 
         
         </theme>       
+	    
+	     <themes mini="true">  
+    	<theme name="Projet PAENDORA (ADEME)"  collapsed="false" id="paendora" icon="university"> 
+
+		<layer id="geoclimate:paendora_zones_2154" name="Processed areas"  visible="true" 
+                style="generic" tiled="true"
+                url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
+                metadata=""
+                metadata-csw="" 
+		tooltip="true" 
+		tooltipenabled="true"
+		attribution="Groupe SIG Lab-STICC - Projet Paendora" /> 
+		
+		<layer id="geoclimate:paendora_lcz1_view" name="Local Climate Zones"  visible="true" 
+                style="lcz1_max_scale" tiled="true"
+                url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
+                metadata=""
+                metadata-csw="" 
+		tooltip="true" 
+		tooltipenabled="true"
+		attribution="Groupe SIG Lab-STICC - Projet Paendora" /> 
+        
+        </theme>  
 
     </themes>
 </config>
