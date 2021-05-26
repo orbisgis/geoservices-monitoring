@@ -31,8 +31,16 @@
                 metadata-csw="" 
 		tooltip="true" 
 		tooltipenabled="true"
-		attribution="Groupe SIG Lab-STICC - Projet SLIM - Copernicus" /> 
-        
+		attribution="Groupe SIG Lab-STICC - Projet SLIM - Copernicus" />     
+		
+		<layer id="geoclimate:rsu_lcz_4326" name="Local Climate Zones (OSM)"  visible="true" 
+                style="lcz1_max_scale" tiled="true"
+                url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
+                metadata=""
+                metadata-csw="" 
+		tooltip="true" 
+		tooltipenabled="true"
+		attribution="Groupe SIG Lab-STICC - Projet SLIM - Copernicus" />   
         </theme>      
     	<theme name="Projet PAENDORA (ADEME)"  collapsed="false" id="paendora" icon="university"> 
 
