@@ -33,7 +33,7 @@
 		tooltipenabled="true"
 		attribution="Groupe SIG Lab-STICC - Projet SLIM - Copernicus" />     
 		
-		<layer id="geoclimate:rsu_lcz_4326" name="Local Climate Zones (OSM)"  visible="true" 
+		<layer id="geoclimate:rsu_lcz_4326" name="Local Climate Zones (OSM)"  visible="false" 
                 style="lcz1_max_scale" tiled="true"
                 url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
                 metadata=""
