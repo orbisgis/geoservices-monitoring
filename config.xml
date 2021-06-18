@@ -61,6 +61,15 @@
 		tooltip="true" 
 		tooltipenabled="true"
 		attribution="Groupe SIG Lab-STICC - Projet Paendora"/> 
+		
+		<layer id="geoclimate:rsu_urban_typo_area_2154" name="Urban typology (BDTopo 2.2)"  visible="false" 
+                style="urban_typology" tiled="true"
+                url="http://geoserver.orbisgis.org/geoserver/geoclimate/wms"
+                metadata=""
+                metadata-csw="" 
+		tooltip="true" 
+		tooltipenabled="true"
+		attribution="Groupe SIG Lab-STICC - Projet Paendora"/> 
         
         </theme>  
     </themes>
